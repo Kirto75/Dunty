@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level_1.unity
+    path: Assets/MainMenu/MainMenu.unity
+    guid: 185c882953d33a5488006734dd76d664
+  - enabled: 1
+    path: Assets/Level 1/Scenes/Level_1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Level 2/Scenes/Level2.unity
+    guid: ce10b3b25524fe24e99f2cfa1e21c340
+  - enabled: 1
+    path: Assets/Level 3/TriForge Assets/Fantasy Worlds - DEMO Content/Scenes/URP/fwOF_FreeDemo_OldForest.unity
+    guid: f18074124bf8d7f48bacd53d86cabf2d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
