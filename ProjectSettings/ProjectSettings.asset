@@ -930,11 +930,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: a3e774a6-b8d5-4662-84a2-09d7396d7a71
+  cloudProjectId: f1162a9d-4536-4bad-a0d6-e1762cdae88d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Dunty2
-  organizationId: akrom4533
+  projectName: test-akram
+  organizationId: unity_34158d654f8e65f43f50
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
