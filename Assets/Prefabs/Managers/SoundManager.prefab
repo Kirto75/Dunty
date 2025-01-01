@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175822732753725485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 854280502773566584}
+  - component: {fileID: 908150546019893093}
+  - component: {fileID: 1832205735395324243}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &854280502773566584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175822732753725485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.0060463, y: -1.1478254, z: 11.343848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &908150546019893093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175822732753725485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b3ea7f241f7241943da5207f11d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundList:
+  - name: Attacks
+    sounds:
+    - {fileID: 8300000, guid: f29410a22f285144ba9e867361077622, type: 3}
+    - {fileID: 8300000, guid: ec3c23f0187883943a47c68412eec373, type: 3}
+    - {fileID: 8300000, guid: 3956de37e43225845b26a0e48832a4b4, type: 3}
+  - name: Footsteps
+    sounds:
+    - {fileID: 8300000, guid: bba2efdfddf423a40893d480795d496d, type: 3}
+    - {fileID: 8300000, guid: 7198b0d30dacf3242a48ede6e335f441, type: 3}
+    - {fileID: 8300000, guid: 67c3208d889893849964ff1ce0d27cc3, type: 3}
+    - {fileID: 8300000, guid: ba89df94304be4c4296596e4987da31a, type: 3}
+    - {fileID: 8300000, guid: d1efab5c0035a6f478c3b71870869d56, type: 3}
+  - name: Jumping
+    sounds:
+    - {fileID: 8300000, guid: 2e45f3945d157b048bfeda9088e1830d, type: 3}
+  - name: Landing
+    sounds:
+    - {fileID: 8300000, guid: 9bff739e180980e4fa3402a4bc7053fc, type: 3}
+    - {fileID: 8300000, guid: 6df19091b24306041be1ac693b0bc20d, type: 3}
+    - {fileID: 8300000, guid: f58567282f098754eb052459fb4dd2f8, type: 3}
+    - {fileID: 8300000, guid: d8f964d67fffa8946a38701baf411474, type: 3}
+  - name: HitSounds
+    sounds:
+    - {fileID: 8300000, guid: 9e6ead4bea4a7ee41b3e203f762d5a58, type: 3}
+    - {fileID: 8300000, guid: 5a0c47c298f288e4499e541e104f5b28, type: 3}
+    - {fileID: 8300000, guid: f8ec5569b07b0dc4a842fb2723385404, type: 3}
+    - {fileID: 8300000, guid: a687a0b1a116ffb4096a9d42c1855d16, type: 3}
+    - {fileID: 8300000, guid: 31d9338f132e54d43a6e8821ce3b7b26, type: 3}
+    - {fileID: 8300000, guid: 63fdc0f538f75c84daf8eafba66fc94a, type: 3}
+    - {fileID: 8300000, guid: e5f582ed1b23aa54ea42c4275e09cf48, type: 3}
+    - {fileID: 8300000, guid: c6693d128eb2260448cf293107eaa829, type: 3}
+    - {fileID: 8300000, guid: d7908e68791412648b52b05d7abbe270, type: 3}
+    - {fileID: 8300000, guid: 7c6e69052cdbdea4e99395e7b0044873, type: 3}
+    - {fileID: 8300000, guid: 3a0b39970e13e9c44863fc62e29587c9, type: 3}
+  - name: Healing
+    sounds:
+    - {fileID: 8300000, guid: 09674d065891d934bb407b0aa0449fe9, type: 3}
+  - name: LevelingUp
+    sounds: []
+  - name: Exploding
+    sounds:
+    - {fileID: 8300000, guid: 38bf6d4fd0bdeb640bedd6dfce7c38d6, type: 3}
+  - name: Defending
+    sounds: []
+  - name: Victory
+    sounds:
+    - {fileID: 8300000, guid: df00cd797245c70438976772436275a1, type: 3}
+  - name: GameOver
+    sounds:
+    - {fileID: 8300000, guid: de6dd5fc6faa4a94caa397403b08463c, type: 3}
+    - {fileID: 8300000, guid: d631ad45271880b43ad2d1928a37d834, type: 3}
+--- !u!82 &1832205735395324243
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175822732753725485}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
